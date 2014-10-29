@@ -1,0 +1,17 @@
+
+
+/* Put basic reset styles here */
+
+html, body {
+  transition: none;
+  color: #444;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
