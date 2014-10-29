@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php require($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
+  <?php require('./includes/head.html');?>
   <body>
-    <?php require($_SERVER['DOCUMENT_ROOT'].'/includes/nav.html'); ?>
+    <?php require('./includes/nav.html'); ?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
