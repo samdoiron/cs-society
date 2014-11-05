@@ -8,7 +8,7 @@
     <div class="ui page grid">
       <div class="column"
         <div class="ui segment">
-          <h1>Hello, world!</h1>
+          <h1 class="ui header">Hello, world!</h1>
           <p>Here you could put some CS/DAL related news!</p>
           <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
         </div>
@@ -29,8 +29,8 @@
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="ui button" href="#" role="button">View details &raquo;</a></p>
         </div>
-      <?php require($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
+      <?php require('./includes/footer.html'); ?>
     </div> <!-- /container -->
-    <?php require($_SERVER['DOCUMENT_ROOT'].'/includes/js.html'); //this should be last ?>
+    <?php require('./includes/js.html'); // this should be last ?>
   </body>
 </html>
