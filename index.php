@@ -5,19 +5,13 @@
     <?php require('./includes/nav.html'); ?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="ui page grid">
-      <div class="column"
-        <div class="ui segment">
-          <h1 class="ui header">Hello, world!</h1>
-          <p>Here you could put some CS/DAL related news!</p>
-          <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-        </div>
-      </div>
+    <div class="jumbotron centered-container ui page grid">
+			<div class="jumbotron-gradient"></div>
+			<div class="jumbotron-gradient"></div>
+			<h1 class="jumbotron-title">Geek Beer! Spooky!</h1>
     </div>
 
-    <!-- content-->
     <div class="ui segment">
-      <!-- Example row of columns -->
       <div class="ui grid">
         <div class="ui eight wide column">
           <h2>Geekbeer</h2>
