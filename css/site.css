@@ -8,6 +8,19 @@
 	}
 }
 
+@keyframes fade-gradient {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.main.menu {
+	margin: 0;
+}
+
 /* 
  * Utilities 
  */
@@ -28,20 +41,33 @@
 /*
  * Jumbotron
  */
+
 .jumbotron {
 	color: white;
 	position: relative;
 }
 
-.jumbotron-title {
+.jumbotron-content {
 	margin: 0;
-	padding: 150px;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
 	font-size: 3rem;
 	text-align: center;
 	position: relative;
 	z-index: 300
 }
 
+.jumbotron-title {
+	font-size: 2rem;
+}
+
+.jumbotron-description {
+	font-size: 1.25rem;
+	color: rgba(255,255,255,.5);
+	margin: 0 auto;
+	max-width: 100%;
+	width: 40em;
+}
 
 .jumbotron-gradient {
 	position: absolute;
@@ -53,12 +79,29 @@
 
 .jumbotron-gradient:nth-of-type(1) {
 	background-image: linear-gradient(45deg, hsl(350, 50%, 50%), hsl(250, 50%, 50%));
-	-webkit-animation: fade-gradient 3s linear infinite;
-	-webkit-animation-direction: alternate;
+
+	-webkit-animation: fade-gradient 5s linear infinite alternate;
+	   -moz-animation: fade-gradient 5s linear infinite alternate;
+	    -ms-animation: fade-gradient 5s linear infinite alternate;
+	     -o-animation: fade-gradient 5s linear infinite alternate;
+	        animation: fade-gradient 5s linear infinite alternate;
+			 	  
 	z-index: 200;
 }
 
 .jumbotron-gradient:nth-of-type(2) {
 	background-image: linear-gradient(-45deg, hsl(350, 50%, 50%), hsl(250, 50%, 50%));
+}
+
+
+
+.ghost-button {
+	background-color: 
+}
+
+
+.jumbotron .column {
+	position: relative;
+	z-index: 500;
 }
 

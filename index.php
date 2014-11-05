@@ -8,11 +8,17 @@
     <div class="jumbotron centered-container ui page grid">
 			<div class="jumbotron-gradient"></div>
 			<div class="jumbotron-gradient"></div>
-			<h1 class="jumbotron-title">Geek Beer! Spooky!</h1>
+			<div class="jumbotron-content">
+				<h1 class="jumbotron-title">Geek Beer! Spooky!</h1>
+				<div class="jumbotron-description">
+						Despairing of him, therefore, I determined to go to bed and to sleep; and no doubt, before a great while, he would follow me. But previous to
+				</div>
+				<button class="ui inverted basic button">Learn More</button>
+			</div>
     </div>
 
     <div class="ui segment">
-      <div class="ui grid">
+      <div class="ui stackable grid">
         <div class="ui eight wide column">
           <h2>Geekbeer</h2>
           <p>We do have them (sometimes)! You could put a blurb about the events or some other stuff here. users can click learn more to do the self explanatory task...</p>
