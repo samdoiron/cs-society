@@ -19,4 +19,7 @@ a {
 	text-decoration: inherit;
 }
 
+.ui.segment {
+	box-shadow: 0;
+}
 
